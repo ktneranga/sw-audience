@@ -37,6 +37,7 @@ client.on('stream-published', function (evt) {
 
 // connect remote streams
 client.on('stream-added', function (evt) {
+  console.log(evt.stream)
   var stream = evt.stream;
   var streamId = stream.getId();
   console.log("new stream added: " + streamId);

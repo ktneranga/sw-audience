@@ -34,8 +34,8 @@
 }
 
 .remote-stream-container {
-  /* display: inline-block; */
-  display: none;
+  display: inline-block;
+  /* display: none; */
   max-width: 430px;
 }
 
